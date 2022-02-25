@@ -9,4 +9,29 @@
 
 body {
   font-size: 100%;
+  background-color: blueviolet;
+}
+
+.cabeçalho {
+  display: flex; /* torna os elementos flex-filhos */
+  flex-direction: row; /* direção em linha */
+  align-items: center; /* alinhados ao centro da linha */
+}
+
+.imagem-cabeçalho {
+  width: 7rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.imagem-conteudo-principal {
+  width: 15rem;
+  height: auto;
+  border-radius: 0.25rem;
+}
+
+.imagem-rodape {
+  width: 7rem;
+  height: auto;
+  border-radius: 50%;
 }

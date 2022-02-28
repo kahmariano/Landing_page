@@ -83,6 +83,10 @@ body {
   color: #2f2325;
 }
 
+.botao-conteudo-principal:hover {
+  background-color: rgb(236, 214, 196, 0.53);
+}
+
 .imagem-conteudo-principal {
   width: 330px;
   border-radius: 1000px;
@@ -102,13 +106,26 @@ body {
   padding-top: 30px;
   font-family: 'Sarala';
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
   color: #fff2ef;
   margin-bottom: 10px; /* para dar um espaço maior entre o titulo e os elementos abaixo */
 }
 
+.paragrafo-conteud-secundario {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #ecd6c4;
+}
+
+.rodape {
+  padding: 20px;
+  border-top: 0.4px solid #fff2e7;
+}
+
 .imagem-rodape {
-  width: 7rem;
-  height: auto;
-  border-radius: 50%;
+  height: 72px;
+  display: block; /* bom para mudar apenas um elemento, ele muda o bloco */
+  margin: 0 auto;
+  border-radius: 0.25rem;
 }

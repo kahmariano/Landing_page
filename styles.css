@@ -10,7 +10,7 @@
 
 body {
   font-size: 100%;
-  background-color: blueviolet;
+  background-color: rgba(68, 2, 64, 0.53);
 }
 
 .cabeçalho {
@@ -36,6 +36,10 @@ body {
   color: #fff2ef;
   font-weight: 400;
   font-size: 18px;
+}
+
+.link-cabeçalho:hover {
+  color: rgb(236, 214, 196, 0.53);
 }
 
 .conteudo-geral {
@@ -102,7 +106,7 @@ body {
 }
 
 .subtitulo-conteudo-secundario {
-  border-top: 0.4px solid #fff2e7;
+  border-top: 0.4px solid #fff2e7; /* essa borda ela se ajusta ao tamanho do conteudo abaixo, por isso essa fica menor que as outras duas */
   padding-top: 30px;
   font-family: 'Sarala';
   font-size: 24px;

@@ -84,12 +84,27 @@ body {
 }
 
 .imagem-conteudo-principal {
-  width: 430px;
+  width: 330px;
   border-radius: 1000px;
   margin-top: 5px;
 }
 
-conteudo-secundario {
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.subtitulo-conteudo-secundario {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 30px;
+  font-family: 'Sarala';
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff2ef;
+  margin-bottom: 10px; /* para dar um espaço maior entre o titulo e os elementos abaixo */
 }
 
 .imagem-rodape {
